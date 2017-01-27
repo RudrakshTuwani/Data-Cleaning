@@ -33,13 +33,13 @@ class Config():
         # Tweet Related
         self.remove_handles = remove_handles
         self.remove_hashtags = remove_hashtags
-        self.remove_punctuation = remove_punctuation#
+        self.remove_punctuation = remove_punctuation
         self.remove_links = remove_links
         self.lowercase = lowercase
-        self.remove_RT = remove_RT#
+        self.remove_RT = remove_RT
         self.reduce_len = reduce_len
-        self.remove_stopwords = remove_stopwords#
-        self.para_to_lines = para_to_lines#
+        self.remove_stopwords = remove_stopwords
+        self.para_to_lines = para_to_lines
         
         # Storage Related
         self.input_file = input_file
