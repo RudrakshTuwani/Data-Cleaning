@@ -1,6 +1,11 @@
 # Data-Cleaning
 
-**CustomTweetTokenizer.py**  
-- Mostly reused code from NLTK TweetTokenizer with some added functionalities and support for Unicode Emoji v4.0.
+**1) CustomTokenizer.py**  
+- Mostly reused code from NLTK's TweetTokenizer.
+- Contains specific tokenizers for both Reddit and Twitter.
+- Support for splitting Emojis. Earlier, emojis like u'👩‍🏫' (specifically modifier and zwj sequences) would get split into u'👩' and u'🏫'. This tokenizer takes care of that case.
+- For emojis containing variation filter, the filter tag ranging from u"\U0001F3FB-\U0001F3FF" is removed.
 
-CleanTwitter.py - Command line utility for pre-processing Twitter data.
+**2) CleanTwitter.py** - Command line utility for pre-processing Twitter data.
+
+**3) CleanReddit.py** - Command line utility for pre-processing Reddit data.
