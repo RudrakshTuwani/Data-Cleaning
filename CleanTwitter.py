@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import argparse
-from CustomTweetTokenizer import TweetTokenizer
+from CustomTokenizer import TweetTokenizer
 import re
 from nltk.corpus import stopwords
 import codecs
