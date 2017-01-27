@@ -47,7 +47,7 @@ class Config():
 
 def main():
 	c = Config(
-		args.remove_hashtags, 
+		args.remove_handles, 
 		args.remove_hashtags,
 		args.remove_punctuation,
 		args.remove_links,
